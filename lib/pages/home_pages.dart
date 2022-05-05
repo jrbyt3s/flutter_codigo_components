@@ -6,6 +6,9 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'alert_page.dart';
 import 'avatar_Page.dart';
+import 'grid_pages.dart';
+import 'input_page.dart';
+import 'list_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -67,6 +70,18 @@ class HomePage extends StatelessWidget {
               ItemComponentWidget(
                 title: "Card Page",
                 toPage: CardPage(),
+              ),
+              ItemComponentWidget(
+                title: "Input Page",
+                toPage: InputPage(),
+              ),
+              ItemComponentWidget(
+                title: "List Page",
+                toPage: ListPage(),
+              ),
+              ItemComponentWidget(
+                title: "Grid View",
+                toPage: GridPage(),
               ),
             ],
           ),
